@@ -1,0 +1,60 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(145, 224, 136);
+    margin: 10px;
+}
+.box2>div>p{
+    color: white;
+    font-size: 28px;
+}
+/*.box2 p{
+    color: white;
+   font-size: 48px;
+}*/
+.box2+p{
+   color: rgb(4, 1, 1);
+   font-size: 38px; 
+}
+/*div+p::first-letter{
+    color: rgb(255, 50, 50);
+    font-size: 48px;
+}*/
+div+p::first-line{
+    color: rgb(255, 50, 50);
+    font-size: 48px;
+}
+div+p::before{
+    content:"hlo";
+    font-size: 48px;
+    color: rgb(19, 38, 122);
+}
+/*div+p::after{
+    content:"\201d";
+   font-size: 96px;
+   color: red;
+} */
+ .box2:hover{
+   height: 150px;
+   width: 150px;
+   background: #000000;
+   /*transform: translateX(90px);
+   /*transform: translateY(80px);
+   transform: translateZ(180px);*/
+   transform: rotate(50deg);
+   transform: skew(10deg);
+   transform: scale(2);
+ }
+ a:link{
+    color: rgb(16, 31, 144);
+}
+a:active{
+    color: rgb(193, 209, 13);
+}
+a:visited{
+    color: rgb(195, 25, 195);
+}
+input:required
+{
+  border: 1px solid rgb(16, 14, 151);
+}
