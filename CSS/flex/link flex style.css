@@ -1,0 +1,36 @@
+#main{
+    border: 5px solid rgb(37, 49, 220);
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap: 40px;
+    /*flex-direction:row ;*/
+    flex-wrap: wrap;
+    align-content:center;
+}
+.child{
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    border: 2px solid white;
+    color: 1px rgb(0, 0, 0);
+    font-size: 60px;
+}
+.child1{
+    flex-grow:0;
+    flex-shrink: 4;
+    flex-basis: 100px;
+   order:1;
+}
+.child2{
+    order: 8;
+}
+.child3{
+    order: 6;
+}
+.child4{
+    order: 1;
+}

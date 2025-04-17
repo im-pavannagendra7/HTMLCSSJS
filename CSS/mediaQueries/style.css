@@ -1,0 +1,60 @@
+body{
+    background-color: aquamarine;
+
+}
+h1{
+    font-size: 28px;
+
+}
+.images{
+    height: 100px;
+    width: 100px;
+    display: grid;
+    gap: 60;
+    grid-template-columns: repeat(2,1fr);
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width:1024px) 
+{
+    body{
+        background-color: rgb(226, 177, 107);
+    }
+    h1{
+        font-size: 48px;
+        text-decoration-color: brown;
+    }
+    .images{
+        height: 50px;
+        width: 50px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .banner{
+        flex-direction: row;
+    }
+
+}
+    
+
+@media (min-width:768px)and (max-width:1024px) {
+    body{
+        background-color : rgb(237, 203, 100);
+    }
+    h1{
+        font-size: 24px;
+        text-decoration-color: rgb(255, 0, 0);
+    }
+    .images{
+            grid-template-columns: repeat(3,1fr);
+    }
+      .banner{
+        flex-direction: row;
+    }
+    .images>img{
+ height: 200px;
+    }
+
+    
+}
