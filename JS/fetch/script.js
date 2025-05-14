@@ -5,6 +5,7 @@
         .then((data)=>displayData(data))
         .catch((err)=>console.log(err))
  }
+ fetchData()
 setInterval(() =>
 {
 fetchData()
