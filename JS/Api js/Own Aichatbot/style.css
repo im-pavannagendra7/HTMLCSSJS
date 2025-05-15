@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 10px;
+    border-color: black;
+}
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(
+          120deg,
+          rgb(126, 139, 238),
+          rgb(113, 231, 113)
+        );
+ }
+#main{
+    height: 80vh;
+    padding: 20px;
+    max-height: 90vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 90vw;
+    background-color: rgb(244, 243, 195);
+    border-radius: 20px;
+    border-color: black 5px;
+}
